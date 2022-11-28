@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-  <script src="app.js"></script>
   <title>Portafolio</title>
   
 </head>
@@ -106,9 +105,9 @@
      <a href="https://www.instagram.com/marbeliamercedesla/"><img src="imagem/Instagram.png" width="58" height="58"></a>
      <a href="https://wa.me/5522997029115"><img src="imagem/WhatsApp.png" width="58" height="58"></a>
   </div>
-
-    <form id="form" class="Correo"
-    action="https://formsubmit.co/ajax/vitti.larosa@gmail.com">
+<div id="form">
+  <div class="Correo">
+    <form action="https://formsubmit.co/vitti.larosa@gmail.com" method="POST">
       <label for="nome">Nome</label>
       <input type="text" name="nome" id="nome" required="obrigatorio" placeholder="Escreve seu nome" />
       <label for="email">E-mail</label>
@@ -118,6 +117,8 @@
       <button type="submit" id="enviar">Enviar</button>
       <div class="spinner" id="spinner"></div>
     </form>
+  </div>
+</div>
 </article>
 </body>
 </html>
