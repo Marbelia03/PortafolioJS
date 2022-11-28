@@ -1,0 +1,519 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  height: 67px;
+  background: hsl(246, 91%, 13%);
+  justify-content: space-between;
+  font-family: Segoe UI;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  margin-right: 30px;
+  padding-top: 20px;
+}
+
+header ul li a {
+  color: #ffff;
+  text-decoration: underline;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.icon {
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+  right: 30px;
+  display: none;
+}
+
+.Heroimage{
+  width: 100%;
+  height: 300px;
+}
+
+.Principal{
+  width: 100%
+}
+.Perfil{
+  position: absolute;
+  top: 220px;
+  left: 230px;
+  z-index: 1;
+}
+
+.one{
+  position: absolute;
+  left: 250px;
+  top: 450px;
+  background: white;
+  border-radius: 30px;
+  background: none;
+  z-index: 2;
+}
+
+.two{
+  position: absolute;
+  left: 330px;
+  top: 450px;
+  background: white;
+  border-radius: 10px;
+  background: none;
+  z-index: 2;
+}
+
+.three{
+  position: absolute;
+  left: 415px;
+  top: 450px;
+  background: white;
+  border-radius: 30px;
+  background: none;
+  z-index: 2;
+}
+
+.Nome{
+  font-size: 55px;
+   font-family: Segoe UI;
+   color: #707070;
+   padding-top: 20px;
+   padding-left: 548px;
+   text-align: left;
+}
+
+.Profe{
+  font-size: 55px;
+   font-family: Segoe UI;
+   color: #707070;
+   padding-top: 20px;
+   padding-left: 548px;
+   text-align: left;
+}
+
+.Perfil{
+  max-width: 100%;
+}
+
+.Presenta{
+  width: 73%;
+   padding-top: 20px;
+   padding-left: 548px;
+   font: 18px Segoe UI;
+   letter-spacing: 0px;
+   color: #707070;
+   opacity: 1;
+   padding-bottom: 0
+}
+
+.Prof{
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 548px;
+  font-family: Segoe UI;
+  font: bolder;
+  color: #707070;
+}
+
+.Rede1{
+  background: white;
+  margin-bottom: 3px;
+}
+
+.Rede2{
+  background: #c8f9ff;;
+  margin-top: 20px;
+  width: 100%;
+  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-left: 150px;
+  font-family: Segoe UI;
+  color: #707070;
+}
+
+.Rede2 h2{
+  padding-bottom: 30px;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.Rede2 ul{
+  padding-left: 34px;
+  font-size: 13px; 
+  width: 100%; 
+}
+
+.Rede2 ul li {
+  font-size: 18px;
+  margin-right: 18px;
+}
+
+.Rede3 {
+  padding-bottom: 60px;
+  padding: 50px;
+  font-size: 35px;
+  font-weight: lighter;
+  padding-left: 150px;
+}
+
+.Rede3 h2 {
+  padding-bottom: 30px;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.Rede3 ul {
+  padding-left: 34px;
+  font-size: 13px;
+  width: 100%;
+}
+
+.Rede3 ul li {
+  font-size: 18px;
+  margin-right: 18px;
+}
+
+.Rede4 {
+  background: #c8f9ff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  align-items: baseline;
+  font-family: Segoe UI;
+}
+
+#Proj {
+  display: flex;
+}
+
+.Rede4 h2{
+  padding-top: 30px;
+  margin-left: 150px;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.card {
+  width: 260px;
+  height: 350px;
+  align-items: center;
+  padding-top: 16.9px;
+  background: #FFFFFF;
+  padding-left: 14px;
+  margin-left: 600px;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.card h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 21px;
+}
+
+.card p {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.card a {
+  padding: 7px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #585858;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.Footer {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: Segoe UI;
+  background: hsl(246, 91%, 13%);;
+  padding-bottom: 25px
+}
+.Contatos  {
+  width: 698px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.Contatos h1{
+  font-weight: lighter;
+  padding-bottom:  40px;
+  color: #FFFFFF;
+}
+
+.Contatos p {
+  padding-bottom: 10px;
+  color:white;
+}
+
+.Contatos img {
+  margin-left: 40px;
+  margin-top: 140px;
+}
+
+.Correo {
+  padding-left: 230px;
+  padding-top: 40px;
+}
+
+form {
+  width: 100%;
+  max-width: 40rem;
+}
+
+label,
+input,
+textarea,
+button {
+  display: block;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  font: inherit;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+  color: white;
+  background: #484e62;
+  border: 0.125rem solid transparent;
+  border-radius: 1.125rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  outline: none;
+  border-color: #1d90f5;
+  box-shadow: 0 0 0 0.3125rem #26344a;
+}
+
+label {
+  margin-bottom: 0.1rem;
+  color: #e0e2ed;
+}
+
+textarea {
+  min-height: 0.5rem;
+  resize: vertical;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: #1d90f5;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+  background: #2e435a;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background: #555b69;
+}
+
+.invalido{
+    border: 2px solid red;
+}
+
+.valido{
+    border: 2px solid yellowgreen;
+}
+
+.mensagemInvalido{
+  text-align: center;
+  color: red;
+  font-size: 20px;
+}
+
+.spinner{
+   border: 4px solid rgba(0, 0, 0, 0.1);
+   width: 36px;
+   height: 36px;
+   border-radius: 50%;
+   border-left: #1d90f5;
+   margin: 0;
+   opacity: 0;
+   animation: spin 1s ease infinite;
+
+}
+
+.enviado{
+  text-align: center;
+  color: yellowgreen;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+@media (max-width:1040px) {
+  
+  #Ca {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 85%;
+    height: 100%;
+    position: fixed;
+    background: #585858;
+    display: none;
+  }
+
+
+  header ul li a {
+    font-size: 20px;
+  }
+
+  header ul li {
+    padding-bottom: 20px;
+  }
+  
+  .icon {
+    display: block;
+  }
+  
+  .Nome {
+    padding-top: 170px;
+    padding-left: 248px;
+  }
+
+  .Prof {
+    padding-top: 40px;
+    padding-left: 248px;
+  }
+
+  .Presenta {
+    padding-top: 20px;
+    padding-left: 248px;
+  }
+
+  .Rede1 {
+    width: 100%;
+  }
+
+  .Rede4 {
+    flex-direction: column;
+    padding-bottom: 170px;
+  }
+
+  .card {
+    width: 260px;
+    height: 370px;
+    margin-bottom: -115px;
+  }
+
+  .Footer {
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+
+  .Correo {
+    padding-left: 10px;
+    width: 250px;
+  }
+}
+
+@media (max-width:700px) {
+  
+.Heroimage {
+  width: 100%;
+}
+
+  .Nome {
+     margin-top: 70px;
+     padding-left: 80px;
+     font-size: 45px;
+  }
+  #Proj {
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .Presenta {
+    padding-top: 20px;
+    padding-left: 80px 
+  }
+
+  .Perfil {
+    top: 220px;
+    left: 80px;
+  }
+  
+  .one {
+    left: 100px;
+    top: 440px;
+    background: white;
+    border-radius: 30px;
+    background: none;
+  }
+  
+  .two {
+    left: 180px;
+    top: 440px;
+    background: white;
+    border-radius: 10px;
+    background: none;
+  }
+  
+  .three {
+    left: 260px;
+    top: 440px;
+    background: white;
+    border-radius: 30px;
+    background: none;
+  }
+
+  .Rede2 {
+    padding-left: 10px;
+  }
+  
+  .Rede3 {
+    padding-left: 10px;
+  }
+  #Footer {
+    padding-left: 10px;
+  }
+
+}
